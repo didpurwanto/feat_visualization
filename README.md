@@ -22,10 +22,10 @@ Go to folder <code >/usr/local/lib/python2.7/dist-packages/saliency </code><br /
 The results are stored in <code >.visualization/results/. </code><br /><br />
 
 Input image: <br />
-<img src="./visualization/results/TVs_Best_Kisses_Top_50_52_to_41_kiss_h_nm_np2_le_goo_1/orig_0000.jpg"><br />
+<img width="10px" height="10px" src="./visualization/results/TVs_Best_Kisses_Top_50_52_to_41_kiss_h_nm_np2_le_goo_1/orig_0000.jpg"><br />
 
 Output image:<br />
-<img src="./visualization/results/TVs_Best_Kisses_Top_50_52_to_41_kiss_h_nm_np2_le_goo_1/maps_0000.jpg"><br />
+<img width="10px" height="10px" src="./visualization/results/TVs_Best_Kisses_Top_50_52_to_41_kiss_h_nm_np2_le_goo_1/maps_0000.jpg"><br />
 
 
 

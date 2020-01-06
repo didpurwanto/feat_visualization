@@ -4,9 +4,11 @@ Feature visualization for I3D Network <br />
 
 This code demonstrates how to visualize the features from 3D Convolutional network. We use vanilla gradients and guided back propagation to compute these saliency representation. Note, since the I3D is 3D convolution, hence, the input is a set of frames. To visualize the features, we need to modify the axis of visualization.py inside the folder /usr/local/lib/python2.7/dist-packages/saliency. <br /><br />
 
-<h2>Running the code</h2> <hr />
+<h2>Running the code</h2> 
 <h3>Setup </h3><br />
-1. <code> $ git clone https://github.com/didpurwanto/feat_visualization</code><br />
+
+1. Clone the project <br />
+<code> $ git clone https://github.com/didpurwanto/feat_visualization</code><br />
 
 2. install saliency by <br />
 <code >$ pip install saliency </code><br />
@@ -17,15 +19,23 @@ Go to folder <code >/usr/local/lib/python2.7/dist-packages/saliency </code><br /
 
 4. put this folder project inside the I3D/experiments/dataset/ along with the train.py and test.py. <br />
 
-<h3>Run the code</h3> <br />
+<h3>Run the code</h3> 
 <code >$ python feat_visualization.py</code> <br />
 The results are stored in <code >.visualization/results/. </code><br /><br />
 
 Input image: <br />
-<img width="150px"  src="./visualization/results/TVs_Best_Kisses_Top_50_52_to_41_kiss_h_nm_np2_le_goo_1/orig_0000.jpg"><br />
+<img width="200px"  src="./visualization/results/TVs_Best_Kisses_Top_50_52_to_41_kiss_h_nm_np2_le_goo_1/orig_0001.jpg"><br />
+<img width="200px"  src="./visualization/results/TVs_Best_Kisses_Top_50_52_to_41_kiss_h_nm_np2_le_goo_1/orig_0003.jpg"><br />
+<img width="200px"  src="./visualization/results/TVs_Best_Kisses_Top_50_52_to_41_kiss_h_nm_np2_le_goo_1/orig_0005.jpg"><br />
+<img width="200px"  src="./visualization/results/TVs_Best_Kisses_Top_50_52_to_41_kiss_h_nm_np2_le_goo_1/orig_0025.jpg"><br />
+
+
 
 Output image:<br />
-<img width="150px"  src="./visualization/results/TVs_Best_Kisses_Top_50_52_to_41_kiss_h_nm_np2_le_goo_1/maps_0000.jpg"><br />
+<img width="200px"  src="./visualization/results/TVs_Best_Kisses_Top_50_52_to_41_kiss_h_nm_np2_le_goo_1/maps_0001.jpg"><br />
+<img width="200px"  src="./visualization/results/TVs_Best_Kisses_Top_50_52_to_41_kiss_h_nm_np2_le_goo_1/maps_0003.jpg"><br />
+<img width="200px"  src="./visualization/results/TVs_Best_Kisses_Top_50_52_to_41_kiss_h_nm_np2_le_goo_1/maps_0005.jpg"><br />
+<img width="200px"  src="./visualization/results/TVs_Best_Kisses_Top_50_52_to_41_kiss_h_nm_np2_le_goo_1/maps_0025.jpg"><br />
 
 
 

@@ -6,18 +6,16 @@ This code demonstrates how to visualize the features from 3D Convolutional netwo
 
 Step by step: <br />
 1. install saliency by <br />
-pip install saliency <br />
+<code >$pip install saliency </code><br />
 
 2. edit the axis of visualization into 3, which originally set as 2. <br />
-Go to folder /usr/local/lib/python2.7/dist-packages/saliency <br />
-Line 23: axis = 3, instead of axis = 2. <br />
+Go to folder <code >/usr/local/lib/python2.7/dist-packages/saliency </code><br />
+<code >line 23: axis = 3, instead of axis = 2. </code><br />
 
 3. put this folder project inside the I3D/experiments/dataset/ along with the train.py and test.py. <br />
 
-4. the results are stored in .visualization/results/. <br /><br />
-
-
-
+4. run the code <code >$ python feat_visualization.py</code>
+The results are stored in <code >.visualization/results/. </code><br /><br />
 
 
 This code is inspired by PAIRML Saliency library <a href="https://github.com/PAIR-code/saliency/blob/master/Examples.ipynb">link</a> <br />

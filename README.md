@@ -1,8 +1,8 @@
-# feat_visualization
+# I3D Feature Visualization
 Feature visualization for I3D Network <br />
 
 
-This code demonstrates how to visualize the features from 3D Convolutional network. We use vanilla gradients and guided back propagation to compute these saliency representation. Note, since the I3D is 3D convolution, hence, the input is a set of frames. To visualize the features, we need to modify the axis of visualization.py inside the folder /usr/local/lib/python2.7/dist-packages/saliency. <br /><br />
+This code demonstrates how to visualize the features from 3D Convolutional network. We use vanilla gradients and guided back propagation to compute these saliency representation. Note, since the I3D is 3D convolution, hence, the input is a set of frames. To visualize the features, we need to modify the axis of <code>visualization.py </code> in the folder <code>/usr/local/lib/python2.7/dist-packages/saliency.</code> <br /><br />
 
 <h2>Running the code</h2> 
 <h3>Setup </h3><br />
